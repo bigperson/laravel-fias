@@ -1,0 +1,32 @@
+{
+    "name": "bigperson/laravel-fias",
+    "description": "todo",
+    "keywords": [
+        "laravel",
+        "php",
+        "queue",
+        "fias",
+        "nalog.ru",
+        "geo",
+        "cities",
+        "regions",
+        "countries"
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "^5.2",
+        "marvin255/fias": "^1.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Kartsev",
+            "email": "anton@klin.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bigperson\\Fias\\": "src/"
+        }
+    }
+}
